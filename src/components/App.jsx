@@ -2,7 +2,7 @@ import "./App.css";
 import initialSessions from "../sessions";
 import SessionsList from "./SessionsList";
 import FromAddNew from "./FromAddNew";
-import Tracker from "./tracker";
+import Tracker from "./Tracker";
 import { useState } from "react";
 function App() {
   const [sessionsData, setSessionData] = useState(initialSessions);
